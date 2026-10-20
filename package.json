@@ -1,0 +1,52 @@
+{
+  "name": "costcodle-rules",
+  "version": "1.0.0",
+  "description": "The rules of Costcodle, the daily Costco price guessing game: guess judging, price parsing, the UTC daily schedule and spoiler-free share text. Pure TypeScript, no dependencies.",
+  "keywords": [
+    "costcodle",
+    "costco",
+    "wordle",
+    "price-guessing-game",
+    "daily-puzzle",
+    "game-rules",
+    "typescript"
+  ],
+  "homepage": "https://costcodle.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Costcodle/costcodle-rules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Costcodle/costcodle-rules/issues"
+  },
+  "license": "MIT",
+  "author": "Costcodle (https://costcodle.org)",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "vitest": "5.0.5"
+  }
+}
