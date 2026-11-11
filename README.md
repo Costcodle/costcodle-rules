@@ -97,4 +97,4 @@ npm run build   # dist/ (ESM + type declarations)
 
 ## License
 
-MIT. Costcodle is an independent fan game. Not affiliated with, endorsed by, or sponsored by Costco Wholesale Corporation; Costco is a trademark of its owner.
+MIT. Costcodle is not affiliated with, endorsed by, or sponsored by Costco Wholesale Corporation; Costco is a trademark of its owner.
