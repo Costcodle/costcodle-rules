@@ -1,6 +1,6 @@
 {
   "name": "costcodle-rules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The rules of Costcodle, the daily Costco price guessing game: guess judging, price parsing, the UTC daily schedule and spoiler-free share text. Pure TypeScript, no dependencies.",
   "keywords": [
     "costcodle",
